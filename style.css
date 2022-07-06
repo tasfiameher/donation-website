@@ -5,7 +5,7 @@ body {
 
 .flexible-container {
     background-image: url(images/donation13.jpg);
-    background-position: absolute;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,7 +31,7 @@ p {
 
 #link1 {
     text-align: center;
-    display: block;
+    display: inline-flex;
 }
 
 .link-button {
@@ -64,8 +64,8 @@ h2 {
 
 }
 
-img {
-    position: relative;
+.image {
+    position: center;
 }
 
 #food-family {
