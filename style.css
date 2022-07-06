@@ -24,6 +24,11 @@ p {
 
 }
 
+.paragraph {
+    text-align: center;
+    color: black;
+}
+
 .donate-today {
     color: black;
     text-align: center;
@@ -31,7 +36,7 @@ p {
 
 #link1 {
     text-align: center;
-    display: inline-flex;
+    display: inline;
 }
 
 .link-button {
@@ -82,6 +87,7 @@ h2 {
 
 .updates {
     text-align: center;
+    color: black;
 }
 
 .email {
