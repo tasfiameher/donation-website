@@ -44,6 +44,10 @@ p {
     text-align: center;
 }
 
+.donation {
+    display: flex;
+}
+
 h2 {
     text-align: center;
 }
@@ -76,16 +80,18 @@ img {
     border-color: darkseagreen;
 }
 
-
-
-footer h1 {
-    background-color: black;
+.updates {
     text-align: center;
-    color: white;
 }
 
-footer p {
+.email {
+    text-align: center;
+}
+
+footer {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 2px;
+
 }
