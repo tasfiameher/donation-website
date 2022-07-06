@@ -3,9 +3,9 @@ body {
 
 }
 
-.container {
+.flexible-container {
     background-image: url(images/donation13.jpg);
-    background-position: top;
+    background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,7 +31,7 @@ p {
 
 #link1 {
     text-align: center;
-    display: inline-block;
+    display: block;
 }
 
 .link-button {
@@ -46,6 +46,34 @@ p {
 
 h2 {
     text-align: center;
+}
+
+.donate-plan {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    background-color: white;
+
+}
+
+img {
+    position: relative;
+}
+
+#food-family {
+    border-color: aqua;
+}
+
+#family-shelter {
+    border-color: darkkhaki;
+}
+
+#child-education {
+    border-color: darkseagreen;
 }
 
 
